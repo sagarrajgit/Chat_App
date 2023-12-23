@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "279757870757",
+    "project_id": "assignmentmessengerapp",
+    "storage_bucket": "assignmentmessengerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279757870757:android:6f1fb510278876d6681f4c",
+        "android_client_info": {
+          "package_name": "com.example.assignment_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx1kSOGWWMyCYgeRlp7eBSGshzd6sLh5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
