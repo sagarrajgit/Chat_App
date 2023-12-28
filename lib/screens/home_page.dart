@@ -1,3 +1,4 @@
+import 'package:assignment_app/helper/dialog_page.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -27,7 +28,10 @@ class _HomePageState extends State<HomePage> {
         actions: [
           InkWell(
               onTap: () {
-                FirebaseAuth.instance.signOut();
+                showDialog(
+                  context: context, 
+                  builder: (context) => const DialogPage()
+                );
               },
               child: const Padding(
                 padding: EdgeInsets.only(right: 5.0),
